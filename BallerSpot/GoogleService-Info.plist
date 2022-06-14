@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>102955510842-d1bc33qqhq2v7v1q8nrl8t20i4dcgpre.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.102955510842-d1bc33qqhq2v7v1q8nrl8t20i4dcgpre</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>102955510842-5dt9gnjpja9qc5hmqoqe1e2eqq3u9kki.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCFPHq7oclI9iujoEd5kLd089pP-kj9128</string>
+	<key>GCM_SENDER_ID</key>
+	<string>102955510842</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.BallerspotPredictorApp</string>
+	<key>PROJECT_ID</key>
+	<string>ballarspot</string>
+	<key>STORAGE_BUCKET</key>
+	<string>ballarspot.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:102955510842:ios:9a94c696edd143f8809903</string>
+	<key>DATABASE_URL</key>
+	<string>https://ballarspot.firebaseio.com</string>
+</dict>
+</plist>

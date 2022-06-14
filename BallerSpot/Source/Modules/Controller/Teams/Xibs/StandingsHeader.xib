@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Bold.ttf">
+            <string>Roboto-Bold</string>
+        </array>
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="359" height="60"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u7H-NN-jTg">
+                    <rect key="frame" x="0.0" y="0.0" width="359" height="60"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="SUh-aK-Cpq">
+                            <rect key="frame" x="161.5" y="14" width="197.5" height="32"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oqQ-UH-MAg">
+                                    <rect key="frame" x="0.0" y="0.0" width="29.5" height="32"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j1E-VA-V6i">
+                                            <rect key="frame" x="1.5" y="8" width="26.5" height="16.5"/>
+                                            <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                    <constraints>
+                                        <constraint firstItem="j1E-VA-V6i" firstAttribute="width" secondItem="oqQ-UH-MAg" secondAttribute="width" multiplier="90%" id="UP7-sI-t3I"/>
+                                        <constraint firstItem="j1E-VA-V6i" firstAttribute="centerX" secondItem="oqQ-UH-MAg" secondAttribute="centerX" id="bIV-ml-W05"/>
+                                        <constraint firstItem="j1E-VA-V6i" firstAttribute="centerY" secondItem="oqQ-UH-MAg" secondAttribute="centerY" id="kcQ-eW-FML"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mNo-pZ-3uN">
+                                    <rect key="frame" x="33.5" y="0.0" width="29.5" height="32"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="W" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="89y-a9-Jrv">
+                                            <rect key="frame" x="1.5" y="8" width="26.5" height="16.5"/>
+                                            <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                    <constraints>
+                                        <constraint firstItem="89y-a9-Jrv" firstAttribute="width" secondItem="mNo-pZ-3uN" secondAttribute="width" multiplier="90%" id="O7B-gW-Afb"/>
+                                        <constraint firstItem="89y-a9-Jrv" firstAttribute="centerX" secondItem="mNo-pZ-3uN" secondAttribute="centerX" id="rQo-k3-MN6"/>
+                                        <constraint firstItem="89y-a9-Jrv" firstAttribute="centerY" secondItem="mNo-pZ-3uN" secondAttribute="centerY" id="yrc-ie-S5m"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OIu-QG-Qyq">
+                                    <rect key="frame" x="67" y="0.0" width="30" height="32"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="D" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rs6-vg-CSh">
+                                            <rect key="frame" x="1.5" y="8" width="27" height="16.5"/>
+                                            <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                    <constraints>
+                                        <constraint firstItem="rs6-vg-CSh" firstAttribute="width" secondItem="OIu-QG-Qyq" secondAttribute="width" multiplier="90%" id="OSN-mL-YOq"/>
+                                        <constraint firstItem="rs6-vg-CSh" firstAttribute="centerY" secondItem="OIu-QG-Qyq" secondAttribute="centerY" id="kTX-zY-rSV"/>
+                                        <constraint firstItem="rs6-vg-CSh" firstAttribute="centerX" secondItem="OIu-QG-Qyq" secondAttribute="centerX" id="mdV-RN-wVc"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2WX-5N-jso">
+                                    <rect key="frame" x="101" y="0.0" width="29.5" height="32"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="L" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j7e-o7-eLa">
+                                            <rect key="frame" x="1.5" y="8" width="26.5" height="16.5"/>
+                                            <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                    <constraints>
+                                        <constraint firstItem="j7e-o7-eLa" firstAttribute="width" secondItem="2WX-5N-jso" secondAttribute="width" multiplier="90%" id="6p3-Ih-eG7"/>
+                                        <constraint firstItem="j7e-o7-eLa" firstAttribute="centerX" secondItem="2WX-5N-jso" secondAttribute="centerX" id="dKS-ZL-M6a"/>
+                                        <constraint firstItem="j7e-o7-eLa" firstAttribute="centerY" secondItem="2WX-5N-jso" secondAttribute="centerY" id="hJ9-pH-FGa"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rHo-EA-PK8">
+                                    <rect key="frame" x="134.5" y="0.0" width="29.5" height="32"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pts" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cDp-qS-esa">
+                                            <rect key="frame" x="1.5" y="8" width="26.5" height="16.5"/>
+                                            <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="14"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                    <constraints>
+                                        <constraint firstItem="cDp-qS-esa" firstAttribute="centerY" secondItem="rHo-EA-PK8" secondAttribute="centerY" id="XZ0-ps-cjc"/>
+                                        <constraint firstItem="cDp-qS-esa" firstAttribute="width" secondItem="rHo-EA-PK8" secondAttribute="width" multiplier="90%" id="aAi-3a-de3"/>
+                                        <constraint firstItem="cDp-qS-esa" firstAttribute="centerX" secondItem="rHo-EA-PK8" secondAttribute="centerX" id="kh2-fS-6oR"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fOS-kN-4i7">
+                                    <rect key="frame" x="168" y="0.0" width="29.5" height="32"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GF" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LpM-3B-8um">
+                                            <rect key="frame" x="1.5" y="8" width="26.5" height="16.5"/>
+                                            <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                    <constraints>
+                                        <constraint firstItem="LpM-3B-8um" firstAttribute="width" secondItem="fOS-kN-4i7" secondAttribute="width" multiplier="90%" id="58t-0e-Dum"/>
+                                        <constraint firstItem="LpM-3B-8um" firstAttribute="centerX" secondItem="fOS-kN-4i7" secondAttribute="centerX" id="b8x-PO-A21"/>
+                                        <constraint firstItem="LpM-3B-8um" firstAttribute="centerY" secondItem="fOS-kN-4i7" secondAttribute="centerY" id="py6-p1-ORF"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="32" id="F8b-7U-vje"/>
+                            </constraints>
+                        </stackView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Group A" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jkm-sw-va3">
+                            <rect key="frame" x="12" y="12" width="51" height="16.5"/>
+                            <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="14"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Team" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gEN-4E-KPc">
+                            <rect key="frame" x="20" y="32.5" width="35" height="16.5"/>
+                            <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstItem="gEN-4E-KPc" firstAttribute="top" secondItem="Jkm-sw-va3" secondAttribute="bottom" constant="4" id="3Cg-z6-ng4"/>
+                        <constraint firstItem="SUh-aK-Cpq" firstAttribute="width" secondItem="u7H-NN-jTg" secondAttribute="width" multiplier="55%" id="B4I-5n-XyR"/>
+                        <constraint firstItem="Jkm-sw-va3" firstAttribute="leading" secondItem="u7H-NN-jTg" secondAttribute="leading" constant="12" id="E3T-qU-l2U"/>
+                        <constraint firstItem="gEN-4E-KPc" firstAttribute="centerX" secondItem="Jkm-sw-va3" secondAttribute="centerX" id="QKu-Rw-STe"/>
+                        <constraint firstItem="SUh-aK-Cpq" firstAttribute="centerY" secondItem="u7H-NN-jTg" secondAttribute="centerY" id="SDs-b7-qlB"/>
+                        <constraint firstAttribute="trailing" secondItem="SUh-aK-Cpq" secondAttribute="trailing" id="Y6F-E6-6D1"/>
+                        <constraint firstItem="Jkm-sw-va3" firstAttribute="top" secondItem="u7H-NN-jTg" secondAttribute="top" constant="12" id="qSp-Hj-g9v"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="u7H-NN-jTg" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="1ea-cv-d1F"/>
+                <constraint firstItem="u7H-NN-jTg" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="Ndg-2t-Fs1"/>
+                <constraint firstAttribute="bottom" secondItem="u7H-NN-jTg" secondAttribute="bottom" id="qUW-lg-2ME"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="u7H-NN-jTg" secondAttribute="trailing" id="taP-yi-lNK"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="29.710144927536234" y="-125.22321428571428"/>
+        </view>
+    </objects>
+</document>

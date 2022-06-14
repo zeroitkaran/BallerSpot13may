@@ -1,0 +1,6 @@
+framework module Pods_BallerSpot {
+  umbrella header "Pods-BallerSpot-umbrella.h"
+
+  export *
+  module * { export * }
+}
